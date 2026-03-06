@@ -5,6 +5,8 @@ import DiscoverPage from './pages/DiscoverPage';
 import ProfilePage from './pages/ProfilePage';
 import UploadProjectPage from './pages/UploadProjectPage';
 import ProjectDetailPage from './pages/ProjectDetailPage';
+import AboutPage from './pages/AboutPage';
+
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/profile/:userId?" element={<ProfilePage />} />
         <Route path="/upload" element={<UploadProjectPage />} />
         <Route path="/project/:projectId" element={<ProjectDetailPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        
       </Routes>
     </Router>
   );

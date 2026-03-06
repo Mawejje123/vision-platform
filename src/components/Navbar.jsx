@@ -44,7 +44,7 @@ const Navbar = () => {
               </a>
               <div className="hidden md:flex items-center space-x-6">
                 <a href="/discover" className="text-gray-300 hover:text-orange-500 transition-colors">Discover</a>
-                <a href="/#about" className="text-gray-300 hover:text-orange-500 transition-colors">About</a>
+                <a href="/about" className="text-gray-300 hover:text-orange-500 transition-colors">About</a>
                 <a href="/#universities" className="text-gray-300 hover:text-orange-500 transition-colors">Universities</a>
               </div>
             </div>
